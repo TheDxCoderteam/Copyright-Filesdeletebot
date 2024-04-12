@@ -20,8 +20,8 @@ BOT_USERNAME = os.environ.get("BOT_USERNAME","ModularCopyRightSaverbot")
 OWNER_ID = "6379841493"
 # -------------------------------------------------------------------------------------
 
-API_ID = "6435225" # 
-API_HASH = "4e984ea35f854762dcde906dce426c2d"
+API_ID = "25511402" # 
+API_HASH = "73cd4400a9f1215c598e4a8549b39c87"
 BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
 
 # --------------------------------------------------------------------------------------
@@ -45,10 +45,10 @@ start_txt = """<b> 🤖  𝗠𝗢𝗗𝗨𝗟𝗔𝗥 𝗖𝗢𝗣𝗬𝗥𝗜�
 async def start(_, msg):
     buttons = [
         [ 
-          InlineKeyboardButton("𝖲𝖴𝖬𝖬𝖮𝖭 𝖬𝖤", url=f"https://t.me/ModularCopyRightSaverbot?startgroup=true")
+          InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ sᴜᴋᴏᴏɴ", url=f"https://t.me/ModularCopyRightSaverbot?startgroup=true")
         ],
         [
-          InlineKeyboardButton("𝖴𝖯𝖣𝖠𝖳𝖤", url=f"https://t.me/ModularCopyrights")
+          InlineKeyboardButton("ɴᴇᴏ ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/NeoUpdatess")
         ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -62,8 +62,8 @@ async def start(_, msg):
 
 gd_buttons = [              
         [
-            InlineKeyboardButton("𝖣𝖤𝖵", user_id=OWNER_ID),
-            InlineKeyboardButton("𝖴𝖯𝖣𝖠𝖳𝖤𝖲", url="https://t.me/ModularCopyrights"),    
+            InlineKeyboardButton("ᴅᴇᴠ", user_id=OWNER_ID),
+            InlineKeyboardButton("ɴᴇᴏ ᴜᴘᴅᴀᴛᴇs", url="https://t.me/NeoUpdatess"),    
         ]
         ]
 
@@ -184,5 +184,5 @@ async def message_handler(client, message):
 
 # -----------------------------------------------------------------------------------
 
-print(f"""╔═════❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱════❍⊱❁۪۪║┏━━━━━━➣║┣⪼ ᴏᴡɴᴇʀ :- @DaxxSir3 ║┣⪼ ᴘᴀʀᴛ ᴏғ :- @ALLTYPECC║┗━━━━━━➣║╔═════ஜ۩۞۩ஜ════╗║अनंत अखंड अमर अविनाशी║कष्ट हरण है║शंभु कैलाशी║╚═════ஜ۩۞۩ஜ════╝╚═════════════════❍⊱❁ """)
+print(f"""╔═════❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱════❍⊱❁۪۪║┏━━━━━━➣║┣⪼ ᴏᴡɴᴇʀ :- @TheKidPersonOp ║┣⪼ ᴘᴀʀᴛ ᴏғ :- @NeoUpdatess ║┗━━━━━━➣║╔═════ஜ۩۞۩ஜ════╗║अनंत अखंड अमर अविनाशी║कष्ट हरण है║शंभु कैलाशी║╚═════ஜ۩۞۩ஜ════╝╚═════════════════❍⊱❁ """)
 app.run()
