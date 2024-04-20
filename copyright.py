@@ -45,10 +45,12 @@ start_txt = """<b> 🤖  𝗠𝗢𝗗𝗨𝗟𝗔𝗥 𝗖𝗢𝗣𝗬𝗥𝗜�
 async def start(_, msg):
     buttons = [
         [ 
-          InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ sᴜᴋᴏᴏɴ", url=f"https://t.me/ModularCopyRightSaverbot?startgroup=true")
+          InlineKeyboardButton("Add Me To Your Group", url=f"https://t.me/ModularCopyRightSaverbot?startgroup=true")
         ],
         [
-          InlineKeyboardButton("ʙᴏᴛ ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/NeoUpdatess")
+          InlineKeyboardButton("Bot Updates", url=f"https://t.me/NeoUpdatess")
+        ],
+        [InlineKeyboardButton("Support", url=f"https://t.me/NeoMusicSupport")
         ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
