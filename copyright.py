@@ -48,7 +48,7 @@ async def start(_, msg):
           InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ sᴜᴋᴏᴏɴ", url=f"https://t.me/ModularCopyRightSaverbot?startgroup=true")
         ],
         [
-          InlineKeyboardButton("ɴᴇᴏ ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/NeoUpdatess")
+          InlineKeyboardButton("ʙᴏᴛ ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/NeoUpdatess")
         ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
